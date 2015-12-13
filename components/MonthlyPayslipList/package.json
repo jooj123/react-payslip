@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "MonthlyPayslipList",
+  "main": "./MonthlyPayslipList.js"
+}

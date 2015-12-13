@@ -1,0 +1,57 @@
+@import '../variables.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $body-bg;
+  color: $text-color;
+  font-family: $font-family-base;
+  text-align: left;
+}
+
+table {
+  border: #ccc 1px solid;
+}
+
+table th {
+  font-size: 1.1em;
+  padding:10px;
+}
+
+table td {
+  font-size: 0.9em;
+  padding:10px;
+}
+
+.Layout {
+  margin: 0 auto;
+}
+
+.Layout-dropzone {
+  border-width: 2px;
+  border-color: black;
+  border-style: dashed;
+  border-radius: 4px;
+  padding: 30px;
+  width: 200px;
+  transition: all 0.5s;
+  color: #606c71;
+}
+
+@media (min-width: $screen-sm-min) {
+  .Layout {
+    width: calc($screen-sm-min - 18px);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .Layout {
+    width: calc($screen-md-min - 22px);
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .Layout {
+    width: calc($screen-lg-min - 30px);
+  }
+}
